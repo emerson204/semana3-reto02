@@ -24,81 +24,77 @@
     </header>
 
     <main>
-      <section>
-        <h2>Contacto</h2>
-        <form action="">
-          <fieldset>
-            <legend>TUS DATOS</legend>
-            <div>
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="nombre" placeholder="Tu Nombre" />
-            </div>
-            <div>
-              <label for="asunto">Asunto:</label>
-              <input type="text" id="asunto" placeholder="Tu Asunto" />
-            </div>
-            <div>
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" placeholder="Tu Email" />
-            </div>
-            <div>
-              <label for="telefono">Teléfono:</label>
-              <input type="num" id="nombre" placeholder="Tu Teléfono" />
-            </div>
-            <div>
-              <label for="mensaje">Mensaje</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="30"
-                rows="10"
-              ></textarea>
-            </div>
-          </fieldset>
+      <h2>Contacto</h2>
+      <form action="">
+        <fieldset>
+          <legend>TUS DATOS</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu Nombre" />
+          </div>
+          <div>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" placeholder="Tu Asunto" />
+          </div>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Tu Email" />
+          </div>
+          <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="num" id="nombre" placeholder="Tu Teléfono" />
+          </div>
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </fieldset>
 
-          <fieldset>
-            <legend>PAIS</legend>
-            <div>
-              <label for="pais">País</label>
-              <select name="pais" id="pais">
-                <option value="" disabled selected hidden>
-                  --Seleccione--
-                </option>
-                <option value="pe">Perú</option>
-                <option value="co">Colombia</option>
-                <option value="mx">México</option>
-                <option value="ar">Argentina</option>
-                <option value="es">España</option>
-                <option value="ch">Chile</option>
-              </select>
-            </div>
-          </fieldset>
+        <fieldset>
+          <legend>PAIS</legend>
+          <div>
+            <label for="pais">País</label>
+            <select name="pais" id="pais">
+              <option value="" disabled selected hidden>--Seleccione--</option>
+              <option value="pe">Perú</option>
+              <option value="co">Colombia</option>
+              <option value="mx">México</option>
+              <option value="ar">Argentina</option>
+              <option value="es">España</option>
+              <option value="ch">Chile</option>
+            </select>
+          </div>
+        </fieldset>
 
-          <fieldset>
-            <legend>INFORMACIÓN EXTRA</legend>
-            <div>
-              <label for="cliente">Cliente</label>
-              <input type="radio" name="cliente-name" id="cliente" />
-            </div>
-            <div>
-              <label for="proveedor">Proveedor</label>
-              <input type="radio" name="cliente-name" id="proveedor" />
-            </div>
-            <div>
-              <label for="interes">Categoria de Interes</label>
-              <input type="text" list="interes" />
-              <datalist id="interes">
-                <option value="Cocina"></option>
-                <option value="Exterior"></option>
-                <option value="Recamaras"></option>
-                <option value="Oficina"></option>
-                <option value="Televisión"></option>
-              </datalist>
-            </div>
-          </fieldset>
-          <input type="submit" value="Enviar formulario" />
-        </form>
-      </section>
+        <fieldset>
+          <legend>INFORMACIÓN EXTRA</legend>
+          <div>
+            <label for="cliente">Cliente</label>
+            <input type="radio" name="cliente-name" id="cliente" />
+          </div>
+          <div>
+            <label for="proveedor">Proveedor</label>
+            <input type="radio" name="cliente-name" id="proveedor" />
+          </div>
+          <div>
+            <label for="interes">Categoria de Interes</label>
+            <input type="text" list="interes" />
+            <datalist id="interes">
+              <option value="Cocina"></option>
+              <option value="Exterior"></option>
+              <option value="Recamaras"></option>
+              <option value="Oficina"></option>
+              <option value="Televisión"></option>
+            </datalist>
+          </div>
+        </fieldset>
+        <input type="submit" value="Enviar formulario" />
+      </form>
     </main>
 
     <footer>
